@@ -1,5 +1,5 @@
 spark-submit \
---class KafkaToHDFSApp \
+--class KafkaToHDFS \
 --master yarn \
 --deploy-mode cluster \
 --files /path/to/application.conf \
